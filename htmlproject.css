@@ -1,0 +1,517 @@
+.a1,.a2,.a3,.a4,.a5,.a6,.a7 {
+    border: 1px solid white;
+    width: 100%;
+    height: 100vh;
+}
+
+.a1 {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    /* position:relative;  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.b {
+    background-color: yellow;
+    height: 5vh;
+    color: black;
+    padding-top: 1%;
+
+}
+
+.b i {
+    margin-left: 10%;
+}
+
+.c {
+    background-color: black;
+    /* width:98%; */
+    height: 5vh;
+    /* position:fixed; */
+    /* top:8%; */
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.a1+strong {
+    margin-left: 2%;
+}
+
+.d {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.e {
+    width: 8%;
+    height: 2%;
+    background-color: red;
+    border-radius: 40px;
+    padding: 7px 3px 20px 3px;
+    color: white;
+    text-align: center;
+    margin-top: -0.2%;
+}
+
+.f {
+    text-align: center;
+    color: whitesmoke;
+}
+
+.f strong {
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+.g {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 13%;
+}
+
+.g {
+    color: whitesmoke;
+}
+
+.h {
+    display: flex;
+    flex-direction: row;
+}
+
+.vid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    margin-left: 0.5%;
+    width: 99%;
+    height: 99%;
+    margin-top: 1%;
+    z-index: -1;
+}
+
+.a2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url("./img/edward-unsplash-blur.jpg");
+}
+
+.im {
+    width: 50vw;
+    height: 65vh;
+    border-radius: 5%;
+}
+
+.para {
+    width: 35vw;
+    height: 50vh;
+    margin-top: -8%;
+    color: whitesmoke;
+}
+
+.para h1 {
+    font-size: 40px;
+}
+
+.ig {
+    display: flex;
+    flex-direction: row;
+    width: 35vw;
+    height: 15vh;
+    background-color: whitesmoke;
+    border-radius: 40px;
+    opacity: 0.8;
+    margin-top: -20%;
+    margin-left: 5%;
+}
+
+.pe {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    gap: 2px;
+}
+
+.font {
+    margin-left: 5%;
+    margin-top: 7%;
+}
+
+.a3 h1 {
+    text-align: center;
+    font-size: 40px;
+    font-style: sanserif;
+}
+
+.hpy {
+    margin-left: -5%;
+    font-style: Segoe UI;
+}
+
+/* .a3{
+  
+} */
+.parent {
+    display: flex;
+
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.ch1 {
+    width: 30vw;
+    height: 75vh;
+    border-radius: 10%;
+    /* padding: 7px 3px 20px 3px; */
+
+}
+
+.ch2 {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 5%;
+    margin-left: -30%;
+
+}
+
+.ch3 {
+    width: 25vw;
+    height: 35vh;
+    border-radius: 5%;
+    margin-left: -30%;
+}
+
+.eve {
+    font-size: 35px;
+    text-align: center;
+}
+
+.gr1 {
+    display: grid;
+    grid-template-columns: 10vw 30vw 20vw 30vw;
+    /* grid-template-rows:20vh 20vh 20vh 20vh; */
+    border: 1px solid black;
+}
+
+.sch {
+    border: 1px solid black;
+    height: 30%;
+}
+
+.sch img {
+    height: 30vh;
+    width: 20vw;
+    grid-area: ;
+}
+
+.plan {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+
+    /* border:2px dotted black; */
+}
+
+.d1 {
+    border: 5px dotted black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    border-spacing: 5%;
+    border-radius: 5%;
+    position: relative;
+
+}
+
+.d1 div {
+    margin-left: 5%;
+}
+
+.d2 {
+    border: 5px dotted black;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    /* margin:5%;
+border-spacing: 5%; */
+    border-radius: 5%;
+    color: black;
+}
+
+.d2 div {
+    margin-left: 5%;
+}
+
+.a5 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.save {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(233, 7, 7);
+    font-size: 20px;
+    position: absolute;
+    right: 0%;
+
+}
+
+.save span {
+    margin-top: 20%;
+    margin-left: 3%;
+    display: inline-block;
+    text-align: center;
+}
+
+.a6 h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cont {
+    width: 25%;
+    height: 5%;
+    background-color: aliceblue;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 7px 3px 20px 3px;
+    color: white;
+    margin-left: 35%;
+    text-align: center;
+}
+
+.cont1 {
+    width: 40%;
+    height: 20%;
+    background-color: white;
+    color: grey;
+    border-radius: 40px;
+    padding: 7px 3px 20px 3px;
+
+    /* text-align: center; */
+    /* margin-top:-0.2%; */
+}
+
+.cont2 {
+    width: 30%;
+    height: 20%;
+    background-color: white;
+    color: grey;
+    border-radius: 40px;
+    padding: 7px 3px 20px 3px;
+
+    text-align: center;
+    margin-top: -0.2%;
+}
+
+.a4 {
+    width: 100%;
+}
+
+.a4 h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.gri {
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 50px 150px 100px 150px;
+    justify-content: center;
+    align-content: ;
+    text-align: center;
+}
+
+.gri div {
+    border: 1px solid whitesmoke;
+}
+
+.c0 {
+    border-top-left-radius: 5px;
+}
+
+.c11 {
+    border-top-right-radius: 5px;
+}
+
+.c0,
+.c9,
+.c10,
+.c11 {
+    background-color: orangered;
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+}
+
+.c12 {
+    background-color: rgb(40, 38, 38);
+    justify-content: center;
+    align-content: center;
+    color: whitesmoke;
+    /* padding-left: 5px; */
+    border-bottom-left-radius: 5px;
+}
+
+.c1 {
+    background-image: url("./img/joecalih-UmTZqmMvQcw-unsplash.jpg");
+    background-size: 30vw 40vh;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 0.9;
+    justify-content: center;
+    align-content: center;
+}
+
+.c3 {
+    background-image: url("./img/abstral-official-bdlMO9z5yco-unsplash.jpg");
+    background-size: 25vw 30vh;
+    background-repeat: no-repeat;
+    color: white;
+    opacity: 0.9;
+    justify-content: center;
+    align-content: center;
+}
+
+.c4 {
+    background-image: url("./img/soundtrap-rAT6FJ6wltE-unsplash.jpg");
+    background-size: 25vw 40vh;
+    background-repeat: no-repeat;
+    color: whitesmoke;
+    opacity: 0.9;
+    justify-content: center;
+    align-content: center;
+}
+
+.c5 {
+    color: white;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(40, 38, 38);
+    border-bottom-right-radius: 5px;
+
+}
+
+.c6 {
+    color: white;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(40, 38, 38);
+}
+
+.c7 {
+    background-color: rgb(227, 168, 176);
+}
+
+.c8 {
+    background-color: rgb(131, 191, 214);
+}
+
+.for {
+    width: 50vw;
+    height: 50vh;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.fn {
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 30%;
+    height: 10%;
+}
+
+.fn1 {
+    width: 30%;
+    height: 10%;
+}
+
+.fn2 {
+    width: 62%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.fn3 {
+    width: 62%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.fn4 {
+    width: 15%;
+    height: 1%;
+    background-color: red;
+    border-radius: 40px;
+    padding: 7px 3px 10px 3px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 40%;
+}
+
+.f1 {
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background-color: #d31226;
+    color: white;
+    font-size: 25px;
+}
+
+.f2 {
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    background-color: black;
+    color: white;
+
+}
+
+.f3 {
+    display: flex;
+    gap: 5px;
+}
+
+.f4 {
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.f2:active a {
+    color: yellow;
+}
+
+.a6:active .cont1 {
+    background-color: pink;
+}
+
+.a6:active .cont2 {
+    background-color: red;
+}
